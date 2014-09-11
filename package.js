@@ -1,8 +1,8 @@
 Package.describe({
-  name: "mizzao:autocomplete",
-  summary: "Client/server autocompletion designed for Meteor's collections and reactivity",
+  name: "zencephalon:autocomplete",
+  summary: "Client/server autocompletion designed for Meteor's collections and reactivity with added flexibility",
   version: "0.4.8",
-  git: "https://github.com/mizzao/meteor-autocomplete.git"
+  git: "https://github.com/zencephalon/meteor-autocomplete.git"
 });
 
 Package.onUse(function (api) {
@@ -30,7 +30,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function(api) {
-  api.use("mizzao:autocomplete");
+  api.use("zencephalon:autocomplete");
 
   api.use('coffeescript');
   api.use('tinytest');
